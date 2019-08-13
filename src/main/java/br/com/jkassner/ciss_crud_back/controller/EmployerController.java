@@ -139,7 +139,7 @@ public class EmployerController {
 	}
 	
 	private Map<String, Object> getEmployersResponse(){
-		return getEmployersResponse(0,10);
+		return getEmployersResponse(0,15);
 	}
 	
 	private Map<String, Object> getEmployersResponse(int page, int rows){

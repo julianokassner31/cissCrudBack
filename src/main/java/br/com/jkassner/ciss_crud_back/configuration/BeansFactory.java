@@ -21,7 +21,7 @@ public class BeansFactory {
 	@Bean
 	public void createEmployers() {
 		
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 3; i++) {
 			buildTable(i);
 		}
 	}
